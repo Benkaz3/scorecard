@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container-big">
+      <div class="container">
+        <div class="one">
+          <h3 class="home-scores">HOME</h3>
+          <p id="home-total-scores"></p>
+          <div class="add-score">
+            <span id="home-one-plus" onclick="addOnePointHome()"></span>
+            <span id="home-two-plus" onclick="addTwoPointHome()"></span>
+            <span id="home-three-plus" onclick="addThreePointHome()"></span>
+          </div>
+        </div>
+        <div class="two">
+          <h3 class="guest-scores">GUEST</h3>
+          <p id="guest-total-scores"></p>
+          <div class="add-score">
+            <span id="guest-one-plus" onclick="addOnePointGuest()"></span>
+            <span id="guest-two-plus" onclick="addTwoPointGuest()"></span>
+            <span id="guest-three-plus" onclick="addThreePointGuest()"></span>
+          </div>
+        </div>
+      </div>
+      <button onclick="resetScore()" class="btn btn-reset">NEW GAME</button>
+      <!-- <p id="test">test</p> -->
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
