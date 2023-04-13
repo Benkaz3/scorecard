@@ -15,11 +15,12 @@ body {
 }
 
 .container-big {
+
     max-width: 400px; 
     max-height: 385px; 
     background-color: rgb(46, 45, 54);
     padding: 10px 0;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 .container {
     display: flex;
